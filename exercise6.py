@@ -108,3 +108,5 @@ if __name__ == "__main__":
         tags, prob = viterbi(obs, transition_probs, emission_probs)
         print(f"Input Sentence : {' '.join(obs)}")
         print(f"Predicted Tags : {tags}")
+        print(f"Probability    : {prob:.6f}") #added probability
+        print()
